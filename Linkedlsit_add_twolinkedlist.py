@@ -58,7 +58,7 @@ node7=ListNode(7)
 node8=ListNode(8)
 node1.next=node2
 node2.next=node3
-
+print_LinkedList(node1)
 node7.next=node8
 new_headhhhhh=AddTwoList(node1,node7)
 print_LinkedList(new_headhhhhh)
